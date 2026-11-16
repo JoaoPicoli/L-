@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/dm-sans-variable-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Instrument Serif";
+  src: url("../assets/fonts/instrument-serif-regular-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Instrument Serif";
+  src: url("../assets/fonts/instrument-serif-italic-latin.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+  --paper: #f8f1ed;
+  --paper-light: #fffaf7;
+  --paper-shadow: #eee2dc;
+  --rose: #e9b7c7;
+  --rose-light: #f4d5de;
+  --rose-mid: #d88fae;
+  --plum: #713d60;
+  --plum-dark: #492c40;
+  --ink: #2d252c;
+  --ink-soft: #62535c;
+  --line: #d9c8c9;
+  --line-dark: rgba(73, 44, 64, 0.28);
+  --font-display: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --font-sans: "DM Sans", Arial, system-ui, sans-serif;
+  --font-mono: "Cascadia Mono", Consolas, "Liberation Mono", monospace;
+  --text-meta: 0.75rem;
+  --text-small: 0.875rem;
+  --text-body: 1rem;
+  --text-step-1: 1.2rem;
+  --text-step-2: 1.44rem;
+  --text-step-3: 1.728rem;
+  --text-step-4: 2.074rem;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+  --motion-100: 100ms;
+  --motion-150: 150ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --page-gutter: clamp(20px, 5vw, 76px);
+  --page-width: 1360px;
+}

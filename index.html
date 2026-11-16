@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f8f1ed">
+    <meta name="description" content="Lû para Android: versão atual e instruções de instalação.">
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="./assets/mascots/lu-bunny.svg" type="image/svg+xml">
+    <link rel="preload" href="./assets/fonts/dm-sans-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/fonts/instrument-serif-regular-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/mascots/lu-bunny-shake.svg" as="fetch" crossorigin>
+    <link rel="stylesheet" href="./styles/tokens.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/motion.css">
+    <script type="module" src="./scripts/main.js"></script>
+    <title>Lû — para a rotina pousar</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header" data-smart-nav>
+      <div class="header-inner">
+        <div class="brand-group">
+          <button class="mascot-trigger" type="button" aria-label="Animar o mascote Lû" aria-busy="false">
+            <img class="nav-mascot-static" src="./assets/mascots/lu-bunny.svg" alt="" width="512" height="512">
+            <span class="nav-mascot-motion" aria-hidden="true"></span>
+          </button>
+          <a class="wordmark" href="#inicio" aria-label="Lû, início">Lû<span class="wordmark-period">.</span></a>
+        </div>
+        <nav class="header-nav" aria-label="Navegação principal">
+          <a class="nav-version" href="#versao" aria-label="Versão 1.0.0">Versão 1.0.0</a>
+          <a class="nav-install" href="#instalacao">Como instalar <span aria-hidden="true">↘</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero page-section" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-number">01</span> aplicativo pessoal <span class="eyebrow-divider">/</span> android</p>
+          <h1 id="hero-title">Um app<br>feito com muito<br><em>carinho ♡</em></h1>
+          <p class="hero-description">Lû é um aplicativo Android para acompanhar o uso do anticoncepcional e consultar seus registros.</p>
+          <div class="hero-actions">
+            <a class="text-link text-link-strong" href="#versao">Versão 1.0.0 <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#instalacao">Instalação <span aria-hidden="true">↓</span></a>
+          </div>
+          <p class="hero-platform"><span class="platform-rule"></span> Android 7.0 ou superior</p>
+        </div>
+
+        <figure class="hero-art">
+          <div class="art-topline" aria-hidden="true"><span>Lû / Android</span><span>nº 001</span></div>
+          <div class="halftone-paper" aria-hidden="true"></div>
+          <img class="hero-mascot" src="./assets/mascots/lu-halftone.svg" alt="" width="1200" height="1200" fetchpriority="high">
+          <figcaption class="art-caption"><span>Versão Beta</span><span>1.0.0</span></figcaption>
+          <span class="art-side-note" aria-hidden="true">LÛ — ANDROID</span>
+        </figure>
+      </section>
+
+      <section class="release-section page-section" id="versao" aria-labelledby="release-title">
+        <div class="section-marker"><span>02</span><span>download</span></div>
+        <div class="release-layout">
+          <div class="release-copy">
+            <p class="eyebrow">Android <span class="eyebrow-divider">/</span> versão atual</p>
+            <h2 id="release-title">Lû para<br><em>Android.</em></h2>
+            <button class="download-button" id="download-button" type="button" disabled aria-describedby="release-status">
+              <span>APK ainda não publicado</span><span class="download-arrow" aria-hidden="true">↓</span>
+            </button>
+            <p class="release-status" id="release-status">Download ainda não publicado.</p>
+            <p class="care-note">* O aplicativo não substitui orientação profissional (tenho que especificar essa informação ou processo vêm).</p>
+          </div>
+
+          <div class="release-specimen" aria-label="Detalhes da versão 1.0.0 para Android">
+            <div class="specimen-heading"><span>Lû / Android</span><span>01—00</span></div>
+            <p class="specimen-version">1.0<span>.0</span></p>
+            <div class="specimen-meta">
+              <div><span>plataforma</span><strong>Android</strong></div>
+              <div><span>compatibilidade</span><strong>Android 7.0+</strong></div>
+              <div><span>arquivo</span><strong>aprox. 109 MiB</strong></div>
+            </div>
+            <span class="specimen-stamp" aria-hidden="true">v1</span>
+          </div>
+        </div>
+
+        <details class="technical-details">
+          <summary>Informações técnicas e integridade (a parte chata)</summary>
+          <dl class="technical-list">
+            <div><dt>Nome do pacote</dt><dd>com.joaopicoli.lu</dd></div>
+            <div><dt>Versão</dt><dd>1.0.0 · código 1</dd></div>
+            <div><dt>Tamanho</dt><dd>114.255.341 bytes</dd></div>
+            <div><dt>SHA-256 do APK</dt><dd><code>16FE85DC7C8B97AC85D194BAD6567FAB5C525DCDD48EB911CE133644574E0BA2</code></dd></div>
+            <div><dt>Certificado de assinatura</dt><dd><code>84227763EEC0A2AB9B35F88C6B6AE0C22257D73B19E5F54D9A1F3367F10041AB</code></dd></div>
+          </dl>
+        </details>
+      </section>
+
+      <section class="installation-section page-section" id="instalacao" aria-labelledby="installation-title">
+        <div class="section-marker"><span>03</span><span>instalação</span></div>
+        <div class="installation-heading">
+          <p class="eyebrow">Android 7.0 ou superior</p>
+          <h2 id="installation-title">Instalação<br><em>no Android.</em></h2>
+        </div>
+        <ol class="install-steps">
+          <li><span class="step-number">01</span><div><h3>Baixe o APK</h3><p>Use o botão de download desta página.</p></div></li>
+          <li><span class="step-number">02</span><div><h3>Abra o arquivo</h3><p>Encontre o APK no navegador ou no gerenciador de arquivos.</p></div></li>
+          <li><span class="step-number">03</span><div><h3>Autorize, se solicitado</h3><p>Permita a instalação para o navegador ou gerenciador usado. Não é necessário desativar o Play Protect.</p></div></li>
+          <li><span class="step-number">04</span><div><h3>Instale e abra o Lû</h3><p>Confirme a instalação. Depois, revogue a permissão temporária de instalar apps desconhecidos para esse aplicativo, se aplicável.</p></div></li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="footer-wordmark" href="#inicio" aria-label="Lû, voltar ao início">Lû</a>
+        <p>Próximas versões disponíveis neste endereço.</p>
+        <span class="footer-version">ANDROID <i>·</i> 1.0.0</span>
+      </div>
+      <div class="footer-bottom"><span>© Lû</span><span>Distribuição oficial</span></div>
+    </footer>
+  </body>
+</html>

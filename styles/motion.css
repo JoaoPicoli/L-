@@ -1,0 +1,35 @@
+:root {
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.mascot-trigger.is-animating .nav-mascot-static {
+  visibility: hidden;
+}
+
+.nav-shake-svg .sva {
+  animation-iteration-count: 1 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .site-header,
+  .mascot-trigger,
+  .download-button:not(:disabled),
+  .text-link,
+  .skip-link {
+    transition: none;
+  }
+
+  .nav-shake-svg .sva,
+  .nav-shake-svg .sva * {
+    animation: none !important;
+    transform: none !important;
+  }
+
+  .download-button:not(:disabled):hover {
+    transform: none;
+  }
+}
