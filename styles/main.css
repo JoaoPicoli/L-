@@ -76,7 +76,7 @@ summary:focus-visible {
   max-width: 100vw;
   padding-inline: var(--page-gutter);
   border-bottom: 1px solid var(--line-dark);
-  background: rgba(248, 241, 237, 0.96);
+  background: #f7f1edf5;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   transform: translateY(0);
